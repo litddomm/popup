@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/modal.jpg");
+}
+
+.myModal{
+    background-color: white;
+    margin-top: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10%;
+    text-align: center;
+    border-radius: 0.5em;
+}
+
+.myH1{
+    font-size: 3em;
+    font-weight:900;
+}
+
+.myButton{
+    padding: 15px;
+    background-color: purple;
+    border-radius: 0.5em;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.secondLayer{
+    width: 180vh;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 7;
+    transform: translateY(-100%);
+}
+
+.modalH1{
+    margin-top: 25%;
+}
+
+.modalSpan{
+    font-size: 2em;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    cursor: pointer;
+}
+
+
+.secondLayer.active{
+    transform: translateY(0);
+}
+
+.secondLayer.activ{
+    transform: translate(-100%);
+}
+
